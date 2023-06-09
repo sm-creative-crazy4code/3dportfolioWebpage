@@ -23,6 +23,22 @@ import {
     jobit,
     tripguide,
     threejs,
+    ganache,
+    gql,
+    ccpp,
+    hcj,
+    solidity,
+    hardhat,
+    truffle,
+    mern,
+    python,
+    tensor,
+    blockchain,
+    kv,
+    iiit,
+    Spotmies,
+     aic,
+     google,
   } from "../assets";
   
   export const navLinks = [
@@ -42,11 +58,11 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
-      icon: web,
+      title: "Blockchain Developer",
+      icon: blockchain,
     },
     {
-      title: "React Native Developer",
+      title: "React (Web2) Developer",
       icon: mobile,
     },
     {
@@ -54,47 +70,47 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "ML/AI Enthusiast",
       icon: creator,
     },
   ];
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
+      name: "HTml,Css,Js",
+      icon: hcj,
     },
     {
-      name: "CSS 3",
-      icon: css,
+      name: "Hardhat",
+      icon: hardhat,
     },
     {
-      name: "JavaScript",
-      icon: javascript,
+      name: "JavaScrip",
+      icon: python,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "C and C++",
+      icon: ccpp,   
     },
     {
-      name: "React JS",
-      icon: reactjs,
+      name: "Tensorfloe",
+      icon: tensor,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "Truffle",
+      icon: truffle,
     },
     {
       name: "Tailwind CSS",
       icon: tailwind,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
+      name: "solidity",
+      icon: solidity,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "Mern",
+      icon: mern,
     },
     {
       name: "Three JS",
@@ -105,66 +121,87 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "ganache",
+      icon: ganache,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "GraphQL",
+      icon: gql,
     },
+    // {
+    //   name: "C plus plus",
+    //   icon: cpp,
+    // },
+    
+    //   {  name: "C plus ",
+    //     icon: cpp,
+    //   },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Early Schooling",
+      company_name: "Kendriya Vidyalaya",
+      icon: kv,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "April 2009 - April 2020",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Completed my early schooling at Kendriya Vidyalaya No1 Salt Lake.",
+        "Passed 10th standard in year 2019 with 96% grade.",
+        "Passed 12th standard in year 2021 with 96.94% grade.",
+        "Was the Batch Topper in 12th standard in Science Stream (Bio with Maths).",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "College",
+      company_name: "IIIT Bhubaneshwar",
+      icon: iiit,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Dec 2021 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Joined the institute on 17th December 2022",
+        "Currently persuing B.tech in CSE branch , 4th semester ongoing",
+        "SGPA : 9.54(till 3rd Semester) CGPA:9.31(of 3rd semestser/Latest Semester)",
+        "Member of MetaVerse Society(Core Tech team web2 and web3 Domain ) and PSOC(core tech team BlockChain Domain)",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "React+ Web3 Intern",
+      company_name: "SPOTMIES LLP",
+      icon: Spotmies,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
       date: "Jan 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Joined as an Web-3 and react intern at Spotmies LLP on JAN 18 2023",
+        "Made contibution in their project CypherB: Blockchain based verification system",
+        "Implementing responsive design and UI for the cypherB project user login page",
+        "Made contribution for refactoring the SPOTMIES LLP website page",
+      ],
+    },
+    {
+      title: "Winner : Innovate Odisha Hackathorn",
+      company_name: "Innovate Odisha Hackathorn",
+      icon: aic,
+      iconBg: "#E6DEDD",
+      date: "Feb 2023 ",
+      points: [
+        "Participated in Innovate Odisha Hackathorn organised by AIC Naland and Karkhana with a team of 4",
+        "Were the winners and won 25k worth of cash prize",
+        "Implemented the UI for flash loan and other usecases for collateral free borrowing on various defi protocols",
+        "Gained expeirence and valueable feedback of experts on our ideas and project",
+      ],
+    },
+    {
+      title: "Google Solution Challenge :Global Top 100 Finalists",
+      company_name: "GOOGLE ",
+      icon: google,
+      iconBg: "#E6DEDD",
+      date: "6th May 2023 ",
+      points: [
+        "Participated in Google Solution Challege  with  our amazing team of 4",
+        "Were the selected among the top 100 finalists globally",
+        "build a disaster Rapid response website with wekb3 and AI",
+        "Gained expeirence and valueable feedback of experts on our ideas and project by our mentors",
       ],
     },
   ];
@@ -198,20 +235,24 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Decentralized version of twitter",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "The decentralized  version of twitter build using solidity and react components having add and remove tweet functionality. It has Graphql  interegation for optimisedd query functionality",
       tags: [
+        {
+          name: "web-3",
+          color: "red-text-gradient",
+        },
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "hardhat/solidity",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "graphql",
           color: "pink-text-gradient",
         },
       ],
@@ -219,20 +260,23 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Farmer potato disease prediction apptication",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application that I created for the rnn model that predicts potato disease  by the photo u can upload to the the site. This application uses a rnn modle at backend using flask and reactjs at the frontend",
       tags: [
         {
-          name: "react",
+          name: "AI",
+          color: "red-text-gradient",
+        },{
+          name: "flask",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "tensorflow",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "react",
           color: "pink-text-gradient",
         },
       ],
@@ -240,20 +284,24 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Meta website",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A stykish and sleek website fullstack website design made by me for the metaverse society of oour college, enabling you to to know about our society more and jump into the metaverse maddness ",
       tags: [
         {
-          name: "nextjs",
+          name: "web-2",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "reactjs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "framerMotion",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "tailwind css",
           color: "pink-text-gradient",
         },
       ],
